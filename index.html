@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>POTIGUARAS</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<script>
+  let current = 1;
+  const total = 4;
+  const tempo = 60000;
+
+  setInterval(() => {
+    document.getElementById(`tema${current}`).checked = false;
+    current = current % total + 1;
+    document.getElementById(`tema${current}`).checked = true;
+  }, tempo);
+</script>
+
+<body>
+  <div class="wrapper">
+
+    <input type="radio" name="tema" id="tema1" checked>
+    <input type="radio" name="tema" id="tema2">
+    <input type="radio" name="tema" id="tema3">
+    <input type="radio" name="tema" id="tema4">
+
+    <div class="nav-dots">
+      <label for="tema1" class="dot"></label>
+      <label for="tema2" class="dot"></label>
+      <label for="tema3" class="dot"></label>
+      <label for="tema4" class="dot"></label>
+    </div>
+
+    <div class="content">
+      <div class="tema tema1">
+        <div class="tema-content">
+          <h1>POTIGUARA</h1>
+          <p>Os Potiguaras são um dos povos indígenas mais antigos do Brasil, com forte presença no litoral nordestino,
+            especialmente
+            na Paraíba. Seu nome, de origem tupi, significa "comedor de camarão", fazendo referência à estreita relação
+            que mantêm
+            com os recursos naturais da costa atlântica. Antes da colonização portuguesa, sua organização era baseada em
+            aldeias,
+            com subsistência voltada à pesca, agricultura e caça.<br></p>
+          <p>Com a chegada dos colonizadores, os Potiguaras sofreram inúmeros processos de expropriação territorial e
+            tentativas de
+            apagamento cultural, mas resistiram bravamente.<br></p>
+          <p>Antes da colonização, sua subsistência baseava-se na pesca, agricultura e caça. Mesmo após longo contato
+            com os
+            não-indígenas, os Potiguaras preservaram sua sociodiversidade, mantendo viva a memória de seus ancestrais.
+          </p>
+        </div>
+      </div>
+
+      <div class="tema tema2">
+        <div class="tema-content">
+          <h1>ORGANIZAÇÃO SOCIAL</h1>
+          <p>A organização social do povo Potiguara é baseada na coletividade, na solidariedade e no respeito mútuo
+            entre os membros
+            da comunidade. As decisões são tomadas de forma participativa, valorizando a escuta dos mais velhos, dos
+            líderes espirituais e das lideranças políticas tradicionais, como os caciques e conselheiros. Embora o
+            cacique exerça um papel
+            de grande relevância, sua liderança é horizontal e articulada com o coletivo, reforçando a noção de
+            responsabilidade
+            compartilhada. Essa estrutura favorece a preservação de seus valores ancestrais, fortalecendo vínculos
+            familiares e
+            comunitários.<br>
+          </p>
+          <p>Sua resistência sociopolítica tem sido essencial na luta pelos direitos
+            territoriais, pela
+            valorização de sua identidade e pelo fortalecimento das práticas culturais e educativas próprias.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="tema tema3">
+        <div class="tema-content">
+          <h1>RELIGIÃO E TRADIÇÕES</h1>
+          <p>A espiritualidade Potiguara é vivenciada de forma profunda, integrando a relação com a natureza, a
+            ancestralidade e o
+            sagrado. Seus rituais refletem uma cosmovisão onde tudo está interligado: a terra, os rios, os seres humanos
+            e os
+            encantados — entidades espirituais que acompanham o povo em sua jornada histórica.</p>
+          <p>O Toré, uma de suas principais manifestações, vai além de um simples ritual: é um ato de resistência
+            cultural,
+            identidade e conexão espiritual.
+          </p>
+          <p>A dança em círculo, os cantos sagrados e o som dos maracás marcam o ritmo da celebração, que muitas vezes
+            acontece em
+            momentos de luta, celebração ou cura.
+          </p>
+          <p>O uso do traje tradicional conhecido como Praiá, que representa fisicamente os encantados, reforça o
+            mistério e a força
+            simbólica dessas práticas. Mesmo com a presença de elementos do catolicismo popular, os Potiguaras mantêm
+            viva a
+            essência de sua religiosidade originária, transmitida oralmente de geração em geração, fortalecendo sua
+            identidade e
+            suas raízes culturais.
+          </p>
+        </div>
+      </div>
+
+      <div class="tema tema4">
+        <div class="tema-content">
+          <h1>CONCLUSÃO</h1>
+          <p>O povo Potiguara representa a força viva da ancestralidade em diálogo com o presente. Suas práticas
+            culturais, sociais
+            e espirituais continuam a se transformar e a se reinventar diante dos desafios contemporâneos, sem abrir mão
+            de suas
+            raízes. Hoje, mais do que resistir, os Potiguaras afirmam sua existência através da arte, da educação
+            diferenciada,
+            da retomada de territórios e da participação ativa em espaços políticos.
+          </p>
+          <p>As tecnologias, quando apropriadas de forma crítica, tornam-se aliadas na valorização de suas memórias e na
+            defesa
+            de seus direitos.
+          </p>
+          <p>Celebrar os Potiguaras é reconhecer a diversidade como riqueza, a tradição como futuro, e a presença
+            indígena como
+            parte essencial da construção de um Brasil mais justo, plural e consciente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script></script>
+
+</body>
+</html>
+</body>
+
+</html>
