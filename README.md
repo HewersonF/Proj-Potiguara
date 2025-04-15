@@ -42,11 +42,15 @@ O projeto foi exibido durante um evento cultural promovido pela escola, como uma
 ---
 
 📄 Licença
+
 Este projeto tem fins educacionais e culturais, sem finalidade comercial.
 
 ---
 
 ✉️ Contato
+
 Hewerson Felipe Silva Santos
+
 📧 hewersoncg@gmail.com
+
 👨‍🏫 Professor da Base Técnica – ECIT Maria do Carmo de Miranda
